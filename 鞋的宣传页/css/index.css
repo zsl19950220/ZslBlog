@@ -1,0 +1,488 @@
+html{
+    overflow-y: scroll;
+}
+body{
+    margin: 0;
+    /* padding: 0; */
+    background-color: #F2F2F2;
+    /* padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box; */
+    overflow:hidden; 
+   /* overflow-y:auto; */
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.down-imgs{
+    height: 0.8rem;
+    width: 0.8rem;
+}
+/* .max-box{
+    height: 100%;
+    width: 100%;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+  
+} */
+.first-box{
+    position: relative;
+    height: 13.34rem;
+    width: 100%;
+    background-color: black;
+    background-image: url(../image/slide1/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 7.5rem;
+    box-sizing: border-box;
+}
+.font-box>img{
+    position: absolute;
+    top: 0.72rem;
+    left: 0.6rem;
+    width: 1.66rem;
+    z-index: 100;
+    box-sizing: border-box;
+}
+.heart-left > img{
+    
+    position: absolute;
+    top: 0.60rem;
+    right: 0.3rem;
+    width: 1.26rem;
+    box-sizing: border-box;
+}
+.background-colorblock{
+    position: absolute;
+    top: 3.24rem;
+    left: 0.98rem;
+    box-sizing: border-box;
+}
+.background-colorblock > img{
+           height: 5.70rem;
+           width: 5.57rem;
+           box-sizing: border-box;
+}
+.bottom-font > img{
+    height: 1.61rem;
+    width: 2.82rem;
+   
+}
+.bottom-font{
+    position: absolute;
+    bottom: 2.62rem;
+    left: 0.6rem;
+  
+}
+.shoes{
+    position: absolute;
+    top: 3.42rem;
+    left: 0.92rem;
+   
+}
+.shoes > img{
+    height: 4.40rem;
+    width: 5.69rem;
+   
+}
+.quanquan{
+    position: absolute;
+    top: 0;
+    left: calc(50% - 4.985rem);
+    height: 9.97rem;
+    width: 9.97rem;
+    /* background-image: url(../image/slide1/quanquan.png);
+    background-repeat: no-repeat;
+    background-size: cover;' */
+    margin: 0 auto;
+}
+
+.quanquan > img{
+    height: 9.97rem;
+    width: 9.97rem;
+
+}
+.technology > img{
+    height: 0.63rem;
+    width: 1.31rem;
+  
+}
+.technology{
+    position: absolute;
+    left: 0.6rem;
+    bottom: 1.3rem;
+    
+}
+.price > img{
+    height: 0.7rem;
+    width: 1.88rem;
+   
+}
+.price{
+    position: absolute;
+    right: 0.62rem;
+    bottom: 1.23rem;
+ 
+}
+.down > img{
+     height: 0.8rem;
+     width: 0.8rem;
+   
+}
+.down{
+    position: absolute;
+    bottom: 0.21rem;
+    left: calc(50% - 0.4rem);
+   
+}
+/* 第二个页面 */
+.second-box{
+    position: relative;
+    height: 13.34rem;
+    width: 100%;
+    background-color: rebeccapurple;
+    background-image: url(../image/slide2/bg.png);
+    
+}
+.commodity > img{
+    height: 3.96rem;
+    width: 5.21rem;
+    
+}
+.commodity{
+    position: absolute;
+    top: 3.23rem;
+    left: calc(50% - 2.6rem);
+    
+}
+.down-div{
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 3.45rem);
+    background-color: aliceblue;
+    height: 4.71rem;
+    width: 6.9rem;
+    border-radius: 0.2rem  0.2rem 0 0;
+   
+}
+.down-div > .title-font{
+    position: absolute;
+    top: 0.91rem;
+    left: 0.3rem;
+  
+}
+.down-div > .title-font > img{
+    width: 5rem;
+    
+}
+.down-button > img{
+    height: 0.8rem;
+    width: 0.8rem;
+  
+}
+.down-button{
+    position: absolute;
+    left: calc(50% - 0.4rem);
+    bottom: 4.24rem;
+   
+}
+.thrid-box{
+    position: relative;
+    height: 13.34rem;
+    width: 100%;
+    background-color: #FAFBFA;
+   
+}
+.product-img > img{
+    
+  height: 10.57rem;
+  width: 6.44rem;    
+}
+.product-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  
+}
+.thrid-font > img{
+    height: 3.12rem;
+    width: 5.2rem;
+  
+}
+.thrid-font{
+    position:absolute;
+    top: 2.77rem;
+    left: 0.6rem;
+    z-index: 99;
+}
+.down-thrid-button{
+    position: absolute;
+    bottom:0.55rem ;
+    left:calc(50% - 0.4rem);
+}
+.fourth-box{
+    position: relative;
+    height: 13.34rem;
+    width: 100%;
+    /* background-color: gold; */
+}
+.red-div{
+    position: relative;
+    width: 100%;
+    height: 8.23rem;
+    background-color: #F94620;
+    background: linear-gradient(#f9461f,#fc666e);
+    opacity: 0.85;
+    z-index: 2;
+}
+.red-div>img{
+    height: 100%;
+    width: 100%;
+}
+.red-shoes{
+    position: absolute;
+    top: 4.35rem;
+    left: calc(50% - 3.15rem);
+    z-index: 1;
+}
+.red-shoes > img{
+    height: 3.14rem;
+    width: 6.3rem;
+
+}
+.up > img{
+    width: 6.3rem;
+    height: 6.1rem;
+}
+.up{
+       position: absolute;
+       top: 1.4rem;
+       left: calc(50% - 3.15rem);
+       z-index: 3;
+}
+.font-title{
+    position: absolute;
+    left: calc(50% - 2.18rem);
+    bottom: 2.27rem;
+    width: 100%;
+    height: 2.43rem;
+   
+}
+.font-title > img{
+    position: absolute;
+    
+
+    height: 100%;
+    width: 4.36rem;
+      
+}
+.fiveth-box{
+    position: relative;
+    height: 13.34rem;
+    width: 100%;
+    /* background-color: greenyellow; */
+}
+.right-img{
+    position: absolute;
+    left: 0;
+    top: 2.18rem;
+}
+.right-img > img{
+    height: 6.55rem;
+    width: 6.56rem;
+
+}
+.fiveth-titile{
+   position: absolute;
+   bottom: 2.5rem;
+   right: 0.6rem;
+}
+.fiveth-titile > img{
+    height: 2.92rem;
+    width: 4.39rem;
+
+}
+.sixth-box{
+    position: relative;
+    height: 13.34rem;
+    width: 100%;
+    /* background-color: blue; */
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.sixth-shoes{
+    width:100%;
+    box-sizing: border-box;
+}
+
+.sixth-shoes > ul > li >  img{
+    width:7.5rem;
+    box-sizing: border-box;
+   
+}
+.sixth-shoes > .wp{
+    width: 22.5rem;
+    background-color: black;
+   
+}
+.sixth-shoes > .wp > li{
+    float: left;
+}
+.spot{
+ position: absolute;
+ top: 7.12rem;
+ left: calc(50% - 0.525rem);
+}
+.spot-ul{
+  height: 0.15rem;
+
+}
+.spot-ul > li{
+    height: 0.15rem;
+    width: 0.15rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 0 0.1rem;
+    float: left;
+}
+.sixth-box>.down-div{
+    position:absolute;
+    left: 0;
+    bottom: 0;
+   width: 100%;
+   height: 5.6rem;
+  
+   
+}
+.down-img{
+    position: absolute;
+    left: 0.56rem;
+    top: 0.69rem;
+}
+.down-img > img{
+    height: 1.48rem;
+    width: 3.05rem;
+
+}
+.jiage > img{
+    height: 0.7rem;
+    width: 1.88rem;
+}
+.jiage{
+    position: absolute;
+    top: 1.47rem;
+    right: 0.62rem;
+}
+.button-mai{
+    position: absolute;
+    top: 4.36rem;
+    left: calc(50% - 1.66rem);
+}
+.button-mai > img{
+    height: 0.88rem;
+    width: 3.31rem;
+
+}
+.chimanul{
+    position: absolute;
+    top: 3.49rem;
+    left: 0.6rem;
+}
+.chimanul > ul {
+    width: 7.84rem;
+    }
+.chimanul > ul >li{
+
+    width: 0.99rem;
+     float: left;
+}
+.chima-font{
+    position: absolute;
+    top: 3.11rem;
+    left: 0.6rem;
+    color: black;
+    font-size: 0.18rem;
+}
+.xiaoxingxing > img{
+    height: 0.88rem;
+    width: 0.88rem;
+}
+.xiaoxingxing{
+    position: absolute;
+    top: 4.36rem;
+    left: 0.6rem;
+}
+.seventh-box{
+    position: relative;
+    height: 13.34rem;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+.product-parameters{
+    position: absolute;
+    top: 0.72rem;
+    right: 0.6rem;
+}
+.product-parameters > img{
+    height: 1.01rem;
+    width: 2rem;
+}
+.product-table > img{
+    height: 3.15rem;
+    width: 6.32rem;
+}
+.product-table{
+    position: absolute;
+    top: 3.52rem;
+    left: calc(50% - 3.16rem);
+}
+.bai-div{
+    position: absolute;
+    top: 7.53rem;
+    left: calc(50% - 3.45rem);
+    height: 4.09rem;
+    width: 6.9rem;
+    border-radius: 0.2rem;
+    background-color: white;
+
+}
+.bai-div > img{
+    height: 100%;
+    width: 100%;
+}
+.eighth-box{
+    position: relative;
+    height: 13.34rem;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+.canpeise > img{
+    height: 1.01rem;
+    width: 2rem;
+}
+.canpeise{
+    position: absolute;
+    top: 0.72rem;
+    right: 0.6rem
+}
+.one-image > img{
+    height: 4.56rem;
+    width: 6.9rem;
+}
+.one-image{
+    position: absolute;
+    top: 2.79rem;
+    left: calc(50% - 3.45rem);
+}
+.two-image > img{
+    height: 4.56rem;
+    width: 6.9rem;
+}
+.two-image{
+    position: absolute;
+    bottom: 0.75rem;
+    left: calc(50% - 3.45rem);
+}
